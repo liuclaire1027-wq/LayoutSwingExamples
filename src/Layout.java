@@ -83,8 +83,11 @@ public class Layout {
     }
     private void reset(){
         String content = textArea.getText();
+        String findText = findField.getText();
         String blank = " ";
         content = content.replace(content, blank);
+        findText = findText.replace(findText, blank);
+        findField.setText(findText);
         textArea.setText(content);
     }
     private void chooseQuote(){
