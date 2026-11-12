@@ -82,6 +82,7 @@ public class Layout {
         }
     }
     private void reset(){
+        String test = "just resetting github push";
         String content = textArea.getText();
         String findText = findField.getText();
         String blank = " ";
